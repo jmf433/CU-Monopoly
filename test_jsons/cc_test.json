@@ -1,0 +1,40 @@
+{
+  "community chest": [
+    {
+      "id": 1,
+      "description": "Advance to Go (Collect 200 BRB's)",
+      "action": "MoveToAndOwe",
+      "money_change": 200,
+      "move_to_pos": 0
+    },
+    {
+      "id": 2,
+      "description": "Bank error in your favor. Collect $200",
+      "action": "MoneyChange",
+      "money_change": 200,
+      "move_to_pos": 39
+    },
+    {
+      "id": 3,
+      "description": "Get Out of Jail Free",
+      "action": "GetOutOfJail",
+      "money_change": 0,
+      "move_to_pos": 39
+    },
+    {
+      "id": 4,
+      "description": "It is your birthday. Collect $10 from every player",
+      "action": "CollectFromPlayers",
+      "money_change": 10,
+      "move_to_pos": 39
+    },
+    {
+      "id": 5,
+      "description": "You are assessed for street repair. $40 per house. $115 per hotel",
+      "action": "PayForHouseRepairs",
+      "money_change": 0,
+      "move_to_pos": 39
+    }
+  ],
+  "random": []
+}

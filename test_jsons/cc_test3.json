@@ -1,0 +1,103 @@
+{
+  "community chest": [
+    {
+      "id": 3,
+      "description": "Get Out of Jail Free",
+      "action": "GetOutOfJail",
+      "money_change": 0,
+      "move_to_pos": 39
+    },
+    {
+      "id": 4,
+      "description": "It is your birthday. Collect $10 from every player",
+      "action": "CollectFromPlayers",
+      "money_change": 10,
+      "move_to_pos": 39
+    },
+    {
+      "id": 5,
+      "description": "You are assessed for street repair. $40 per house. $115 per hotel",
+      "action": "PayForHouseRepairs",
+      "money_change": 0,
+      "move_to_pos": 39
+    },
+    {
+      "id": 6,
+      "description": "Go to Jail. Go directly to jail, do not pass Go, do not collect $200",
+      "action": "MoneyChange",
+      "money_change": 0,
+      "move_to_pos": 10
+    },
+    {
+      "id": 7,
+      "description": "Holiday fund matures. Receive $100",
+      "action": "MoneyChange",
+      "money_change": 100,
+      "move_to_pos": 39
+    },
+    {
+      "id": 8,
+      "description": "Income tax refund. Collect $20",
+      "action": "MoneyChange",
+      "money_change": 20,
+      "move_to_pos": 39
+    },
+    {
+      "id": 9,
+      "description": "It is your birthday. Collect $10 from every player",
+      "action": "CollectFromPlayers",
+      "money_change": 10,
+      "move_to_pos": 39
+    },
+    {
+      "id": 10,
+      "description": "Life insurance matures. Collect $100",
+      "action": "MoneyChange",
+      "money_change": 100,
+      "move_to_pos": 39
+    },
+    {
+      "id": 11,
+      "description": "Pay hospital fees of $100",
+      "action": "MoneyChange",
+      "money_change": -100,
+      "move_to_pos": 39
+    },
+    {
+      "id": 12,
+      "description": "Pay school fees of $50",
+      "action": "MoneyChange",
+      "money_change": -50,
+      "move_to_pos": 39
+    },
+    {
+      "id": 13,
+      "description": "Receive $25 consultancy fee",
+      "action": "MoneyChange",
+      "money_change": 25,
+      "move_to_pos": 39
+    },
+    {
+      "id": 14,
+      "description": "You are assessed for street repair. $40 per house. $115 per hotel",
+      "action": "PayForHouseRepairs",
+      "money_change": 0,
+      "move_to_pos": 39
+    },
+    {
+      "id": 15,
+      "description": "You have won second prize in a beauty contest. Collect $10",
+      "action": "ChangeMoney",
+      "money_change": 10,
+      "move_to_pos": 39
+    },
+    {
+      "id": 16,
+      "description": "You inherit $100",
+      "action": "MoneyChange",
+      "money_change": 100,
+      "move_to_pos": 39
+    }
+  ],
+  "random": []
+}

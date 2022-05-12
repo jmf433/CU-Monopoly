@@ -1,0 +1,6 @@
+Make sure to install 
+the graphics module with the command
+"opam install graphics" and "opam install camlimages" 
+then
+dune build
+make play

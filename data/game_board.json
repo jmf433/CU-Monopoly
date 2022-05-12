@@ -1,0 +1,602 @@
+{
+  "railroad locs": [
+    5,
+    15,
+    25,
+    25
+  ],
+  "utilities locs": [
+    12,
+    28
+  ],
+  "properties": [
+    {
+      "id": 0,
+      "name": "Go",
+      "description": "Collect 200 BRBs when you pass Go!",
+      "type": "Go"
+    },
+    {
+      "id": 1,
+      "name": "Cascadilla Hall",
+      "description": "You see the gorgeous gorge right next to you!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          2,
+          10,
+          30,
+          90,
+          160,
+          250
+        ],
+        "region": "South",
+        "price": 60,
+        "house price": 50
+      }
+    },
+    {
+      "id": 2,
+      "name": "Martha's Treasure",
+      "description": "Pick up a community chest card",
+      "type": "Draw",
+      "type info": "Community Chest"
+    },
+    {
+      "id": 3,
+      "name": "Sheldon Court",
+      "description": "You know winter is coming",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          4,
+          20,
+          60,
+          180,
+          320,
+          450
+        ],
+        "region": "South",
+        "price": 60,
+        "house price": 50
+      }
+    },
+    {
+      "id": 4,
+      "name": "Student Activity Fee",
+      "description": "Everyone's favorite bill, pay $200!",
+      "type": "Tax",
+      "type info": {
+        "price": 200
+      }
+    },
+    {
+      "id": 5,
+      "name": "30 Bus Line",
+      "description": "You get to ride one of the new electric buses!",
+      "type": "Railroad",
+      "type info": {
+        "price": 200,
+        "rentlist": [
+          25,
+          50,
+          100,
+          200
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Goldwin Smith",
+      "description": "The A.D. White Statue looms overhead.",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          6,
+          30,
+          90,
+          270,
+          400,
+          550
+        ],
+        "region": "Central",
+        "price": 100,
+        "house price": 50
+      }
+    },
+    {
+      "id": 7,
+      "name": "Temple of Zeus",
+      "description": "Draw a chance card!",
+      "type": "Draw",
+      "type info": "Chance"
+    },
+    {
+      "id": 8,
+      "name": "Bailey Hall",
+      "description": "You hold your head up high as you enter 15 mins early",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          6,
+          30,
+          90,
+          270,
+          400,
+          550
+        ],
+        "region": "Central",
+        "price": 100,
+        "house price": 50
+      }
+    },
+    {
+      "id": 9,
+      "name": "Bailey Hall",
+      "description": "You hold your head up high as you enter 15 mins early",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          8,
+          40,
+          100,
+          300,
+          450,
+          600
+        ],
+        "region": "Central",
+        "price": 120,
+        "house price": 50
+      }
+    },
+    {
+      "id": 10,
+      "name": "Academic Suspension",
+      "description": "Oh no, you dropped one too many classes",
+      "type": "Jail"
+    },
+    {
+      "id": 11,
+      "name": "Dickson Hall",
+      "description": "You hear a whisper of renovation near the volleyball courts",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          10,
+          50,
+          150,
+          450,
+          625,
+          750
+        ],
+        "region": "North",
+        "price": 140,
+        "house price": 100
+      }
+    },
+    {
+      "id": 12,
+      "name": "Electric Company",
+      "type": "Utility",
+      "description": "Be green!",
+      "type info": {
+        "rentlist": [
+          4,
+          10
+        ],
+        "price": 150
+      }
+    },
+    {
+      "id": 13,
+      "name": "Balch Hall",
+      "description": "You refill your Brita in you room",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          10,
+          50,
+          150,
+          450,
+          625,
+          750
+        ],
+        "region": "North",
+        "price": 140,
+        "house price": 100
+      }
+    },
+    {
+      "id": 14,
+      "name": "Muse Hall",
+      "description": "You take of your jacket to appreciate the lavish air conditioning",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          10,
+          50,
+          150,
+          450,
+          625,
+          750
+        ],
+        "region": "North",
+        "price": 140,
+        "house price": 100
+      }
+    },
+    {
+      "id": 15,
+      "name": "10 Bus Line",
+      "description": "You take a trip from Milstein Hall around campus!",
+      "type": "Railroad",
+      "type info": {
+        "price": 200,
+        "rentlist": [
+          25,
+          50,
+          100,
+          200
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Cook Hall",
+      "description": "You run to catch a meal at 8:59!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          14,
+          70,
+          200,
+          550,
+          755,
+          950
+        ],
+        "region": "West",
+        "price": 180,
+        "house price": 100
+      }
+    },
+    {
+      "id": 17,
+      "name": "The Gate's Trust Fund",
+      "description": "Pick up a community chest card",
+      "type": "Draw",
+      "type info": "Community Chest"
+    },
+    {
+      "id": 18,
+      "name": "Rose Hall",
+      "description": "You stare at the marvelous murals in the dining hall",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          14,
+          70,
+          200,
+          550,
+          755,
+          950
+        ],
+        "region": "West",
+        "price": 180,
+        "house price": 100
+      }
+    },
+    {
+      "id": 19,
+      "name": "Boldt Hall",
+      "description": "You smile at the undeniably greatest residence hall in Cornopoly",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          16,
+          80,
+          220,
+          600,
+          800,
+          1000
+        ],
+        "region": "West",
+        "price": 200,
+        "house price": 100
+      }
+    },
+    {
+      "id": 20,
+      "name": "Free Parking",
+      "description": "You park your car in CTOWN never truly sure if it's really free",
+      "type": "Free"
+    },
+    {
+      "id": 21,
+      "name": "Malott Hall",
+      "description": "Math is fun!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          18,
+          90,
+          250,
+          700,
+          875,
+          1050
+        ],
+        "region": "Central",
+        "price": 220,
+        "house price": 150
+      }
+    },
+    {
+      "id": 22,
+      "name": "Chef's Choice",
+      "description": "Draw a chance card!",
+      "type": "Draw",
+      "type info": "Chance"
+    },
+    {
+      "id": 23,
+      "name": "Goldwin Smith Hall",
+      "description": "You wave hello to A.D. White!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          18,
+          90,
+          250,
+          700,
+          875,
+          1050
+        ],
+        "region": "Central",
+        "price": 220,
+        "house price": 150
+      }
+    },
+    {
+      "id": 24,
+      "name": "Uris Hall",
+      "description": "Peace, Love, 3110!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          20,
+          100,
+          300,
+          750,
+          925,
+          1100
+        ],
+        "region": "Central",
+        "price": 240,
+        "house price": 150
+      }
+    },
+    {
+      "id": 25,
+      "name": "81 Bus Line",
+      "description": "For moving around campus at most times of the day.",
+      "type": "Railroad",
+      "type info": {
+        "price": 200,
+        "rentlist": [
+          25,
+          50,
+          100,
+          200
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "Bartels Hall",
+      "description": "Wow, so many people!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          22,
+          110,
+          330,
+          800,
+          975,
+          1150
+        ],
+        "region": "East",
+        "price": 260,
+        "house price": 150
+      }
+    },
+    {
+      "id": 27,
+      "name": "Botanic Gardens",
+      "description": "Pretty flowers!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          22,
+          110,
+          330,
+          800,
+          975,
+          1150
+        ],
+        "region": "East",
+        "price": 260,
+        "house price": 150
+      }
+    },
+    {
+      "id": 28,
+      "name": "Water Works",
+      "description": "The taps are so powerful, but the showers are not",
+      "type": "Utility",
+      "type info": {
+        "rentlist": [
+          4,
+          10
+        ],
+        "price": 150
+      }
+    },
+    {
+      "id": 29,
+      "name": "Dairy Bar",
+      "description": "Mmm, the butter is amazing!",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          24,
+          120,
+          360,
+          850,
+          1025,
+          1200
+        ],
+        "region": "East",
+        "price": 280,
+        "house price": 150
+      }
+    },
+    {
+      "id": 30,
+      "name": "Go to Jail",
+      "description": "Go back to Academic Suspension, you need at least 12 credits!",
+      "type": "GoJail"
+    },
+    {
+      "id": 31,
+      "name": "Eddy Street Apts.",
+      "description": "Not too far up the hill, not to far down",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          26,
+          130,
+          390,
+          900,
+          1100,
+          1275
+        ],
+        "region": "Collegetown",
+        "price": 300,
+        "house price": 200
+      }
+    },
+    {
+      "id": 32,
+      "name": "Old Annex House",
+      "description": "You're here for a good time, not a long time",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          26,
+          130,
+          390,
+          900,
+          1100,
+          1275
+        ],
+        "region": "Collegetown",
+        "price": 300,
+        "house price": 200
+      }
+    },
+    {
+      "id": 33,
+      "name": "Financial Aid Notification",
+      "description": "Your financial aid has come in, pick up a community chest card",
+      "type": "Draw",
+      "type info": "Community Chest"
+    },
+    {
+      "id": 34,
+      "name": "Student Agencies Building",
+      "description": "It even feels expensive to look at",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          28,
+          150,
+          450,
+          1000,
+          1200,
+          1400
+        ],
+        "region": "Collegetown",
+        "price": 320,
+        "house price": 200
+      }
+    },
+    {
+      "id": 35,
+      "name": "36 Bus Line",
+      "description": "Sure, you don't know where this goes... but it surely beats walking the slope",
+      "type": "Railroad",
+      "type info": {
+        "price": 200,
+        "rentlist": [
+          25,
+          50,
+          100,
+          200
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Syllabus Change",
+      "description": "There has been a syllabus change, draw a chance card!",
+      "type": "Draw",
+      "type info": "Chance"
+    },
+    {
+      "id": 37,
+      "name": "Toni Morrison Hall",
+      "description": "You walk downstairs for an early morning crepe",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          35,
+          175,
+          500,
+          1100,
+          1300,
+          1500
+        ],
+        "region": "New North",
+        "price": 350,
+        "house price": 200
+      }
+    },
+    {
+      "id": 38,
+      "name": "iClicker Fee",
+      "description": "An iClicker is required for a class. Pay $100!",
+      "type": "Tax",
+      "type info": {
+        "price": 100
+      }
+    },
+    {
+      "id": 39,
+      "name": "Ganedago Hall ",
+      "description": "While some struggle to pronounce the name, many more wish they could have lived there",
+      "type": "Normal",
+      "type info": {
+        "rentlist": [
+          50,
+          200,
+          600,
+          1400,
+          1700,
+          2000
+        ],
+        "region": "New North",
+        "price": 400,
+        "house price": 200
+      }
+    }
+  ]
+}

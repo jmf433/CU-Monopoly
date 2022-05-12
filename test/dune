@@ -1,0 +1,7 @@
+; (executable
+;  (name game_board_test)
+;  (libraries final_project ounit2))
+
+(executables
+ (names game_board_test player_test draw_test)
+ (libraries final_project ounit2))
